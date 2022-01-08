@@ -26,3 +26,4 @@ hs_err_pid*
 .metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
 *.xmi
 *.resources
+*.xmi
