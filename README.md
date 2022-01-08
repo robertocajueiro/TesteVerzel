@@ -2,6 +2,9 @@
  Teste de Desenvolvedor da Verzel
  
  # Acesso  teste Banco MySql
- ipaddress: localhost
+ 
+ ipaddress server: localhost
+ 
  username: root
+ 
  password: 123456
