@@ -15,10 +15,9 @@ import lombok.EqualsAndHashCode;
 @Entity
 public class Carro {
 	
-	
 	@Id
 	@EqualsAndHashCode.Include
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
 	@Column(nullable = false)
@@ -33,5 +32,7 @@ public class Carro {
 	@Lob
 	@Column(name = "foto")
 	private byte[] foto;
+	
+	
 	
 }

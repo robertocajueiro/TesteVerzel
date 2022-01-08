@@ -26,6 +26,11 @@ public class CarroController {
 		return carroRepository.findAll();
 	}
 	
+	@GetMapping("/por-nome")
+	public List<Carro> carroPorNome(String nome){
+		return carroRepository.findTodasByNomeContaining(nome);
+	}
+	
 	
 	
 	
